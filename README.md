@@ -62,20 +62,20 @@ The template comes with a default theme configuration in `theme.config.mjs`. You
 
 ```js
 export default {
-    themes: {
-      default: {
-        colors: {
-          neutral: 'gray',
-          primary: 'blue',
-          secondary: 'violet',
-          error: 'red',
-          warning: 'amber',
-          success: 'green',
-          info: 'blue',
-        },
+  themes: {
+    default: {
+      colors: {
+        neutral: 'gray',
+        primary: 'blue',
+        secondary: 'violet',
+        error: 'red',
+        warning: 'amber',
+        success: 'green',
+        info: 'blue',
       },
     },
-  };
+  },
+};
 ```
 
 For detailed theme customization options and documentation, refer to the [DS3 Theme Package](https://github.com/Consensys-Network-State/ds3/tree/main/packages/theme).
