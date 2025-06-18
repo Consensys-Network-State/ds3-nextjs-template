@@ -17,6 +17,8 @@ A pre-configured Next.js template with DS3 (Design System 3) already set up and 
 
 For comprehensive documentation about DS3, including UI components, theming, and configuration, visit the [DS3 Monorepo](https://github.com/Consensys-Network-State/ds3).
 
+For details on how this template was set up from scratch, see [SETUP.md](./SETUP.md).
+
 ## Quick Start
 
 ### Option 1: Using degit
