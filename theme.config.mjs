@@ -14,7 +14,7 @@ export default {
           error: 'red',
           warning: 'amber',
           success: 'green',
-          info: 'blue',
+          info: 'indigo'
         },
       },
   
