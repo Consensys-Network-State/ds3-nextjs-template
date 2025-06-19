@@ -25,7 +25,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-neutral-1 text-neutral-12 flex flex-col">
+    <div className="min-h-screen bg-neutral-1 text-neutral-12 flex flex-col bg-primary-1">
       {/* Header */}
       <header className="flex justify-center items-center p-6">
         <div className="flex justify-center sm:justify-end items-center w-full">
