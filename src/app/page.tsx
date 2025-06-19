@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 import {
   ModeToggle,
   Button,
@@ -44,13 +46,24 @@ export default function Home() {
       <main className="flex-1 flex items-center justify-center p-6 overflow-y-auto">
         <div className="max-w-4xl w-full">
           <div className="flex flex-col items-center justify-center text-center">
-            <Icon icon={ThemeIcon} color="secondary" size="lg" className="w-30 h-30 mb-6" />
+
+          <div className="flex flex-row items-center justify-center mb-6 gap-8">
+            <Image
+              className="dark:invert"
+              src="/vercel.svg"
+              alt="Next.js logo"
+              width={80}
+              height={80}
+              priority
+            />
+            <Icon icon={ThemeIcon} color="secondary" size="lg" className="w-20 h-20" />
+            </div>
             
             <Text size="4xl" weight="bold" className="mb-4">
-              Next.js + DS3
+              Next + DS3
             </Text>
             
-            <Text size="xl" color="neutral" className="max-w-2xl mx-auto mb-3">
+            <Text size="xl" color="neutral" className="max-w-2xl mx-auto mb-3 text-center">
               The ultimate starter template for DS3 and Next.js.
             </Text>
             
@@ -88,6 +101,7 @@ export default function Home() {
                 variant="solid" 
                 color="primary" 
                 size="lg"
+                className="self-center"
                 onClick={() => window.open('https://github.com/Consensys-Network-State/ds3/tree/main/packages/ui#-component-library', '_blank')}
               >
                 <Button.Icon icon={BookOpen} />
@@ -98,6 +112,7 @@ export default function Home() {
                 variant="outline" 
                 color="neutral" 
                 size="lg"
+                className="self-center"
                 onClick={() => window.open('https://github.com/Consensys-Network-State/ds3', '_blank')}
               >
                 <Button.Icon icon={Github} />
