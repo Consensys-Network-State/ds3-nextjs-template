@@ -60,7 +60,7 @@ export default function Home() {
             </div>
             
             <Text size="4xl" weight="bold" className="mb-4">
-              Next + DS3
+              Next.js + DS3
             </Text>
             
             <Text size="xl" color="neutral" className="max-w-2xl mx-auto mb-3 text-center">
