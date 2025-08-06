@@ -102,10 +102,10 @@ export default function Home() {
                 color="primary" 
                 size="lg"
                 className="self-center"
-                onClick={() => window.open('https://github.com/Consensys-Network-State/ds3/tree/main/packages/ui#-component-library', '_blank')}
+                onPress={() => window.open('https://github.com/Consensys-Network-State/ds3/tree/main/packages/ui#-component-library', '_blank')}
               >
-                <Button.Icon icon={BookOpen} />
-                <Button.Text>Component Library</Button.Text>
+                <Icon icon={BookOpen} />
+                <Text>Component Library</Text>
               </Button>
               
               <Button 
@@ -113,10 +113,10 @@ export default function Home() {
                 color="neutral" 
                 size="lg"
                 className="self-center"
-                onClick={() => window.open('https://github.com/Consensys-Network-State/ds3', '_blank')}
+                onPress={() => window.open('https://github.com/Consensys-Network-State/ds3', '_blank')}
               >
-                <Button.Icon icon={Github} />
-                <Button.Text>View on Github</Button.Text>
+                <Icon icon={Github} />
+                <Text>View on Github</Text>
               </Button>
             </div>
           </div>
@@ -131,28 +131,28 @@ export default function Home() {
               variant="ghost"
               color="neutral"
               className="flex items-center gap-2 text-base"
-              onClick={() => window.open('https://tailwindcss.com/docs', '_blank')}
+              onPress={() => window.open('https://tailwindcss.com/docs', '_blank')}
             >
-              <Button.Icon icon={Waves} />
-              <Button.Text>Tailwind</Button.Text>
+              <Icon icon={Waves} />
+              <Text>Tailwind</Text>
             </Button>
             <Button
               variant="ghost"
               color="neutral"
               className="flex items-center gap-2 text-base"
-              onClick={() => window.open('https://nextjs.org/docs', '_blank')}
+              onPress={() => window.open('https://nextjs.org/docs', '_blank')}
             >
-              <Button.Icon icon={Triangle} />
-              <Button.Text>Next.js</Button.Text>
+              <Icon icon={Triangle} />
+              <Text>Next.js</Text>
             </Button>
             <Button
               variant="ghost"
               color="neutral"
               className="flex items-center gap-2 text-base"
-              onClick={() => window.open('https://react.dev/reference/react', '_blank')}
+              onPress={() => window.open('https://react.dev/reference/react', '_blank')}
             >
-              <Button.Icon icon={Globe} />
-              <Button.Text>React</Button.Text>
+              <Icon icon={Globe} />
+              <Text>React</Text>
             </Button>
           </div>
         </div>
